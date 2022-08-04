@@ -4,4 +4,4 @@ on: [push]
 
 jobs:
   call-workflow:
-    uses: ./.github/workflows/ReusableBuildRelease.yml
+    uses: leshemo/WpfApplicationBuild/.github/workflows/Reusable-BuildRelease-dotnetFramework.yml@main
